@@ -6,36 +6,51 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8241D2E12F2F715300E8E3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8241D2D82F2F715300E8E3DD /* Assets.xcassets */; };
+		8241D2E32F2F715300E8E3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8241D2DB2F2F715300E8E3DD /* LaunchScreen.storyboard */; };
+		8241D2E52F2F715300E8E3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2D72F2F715300E8E3DD /* AppDelegate.swift */; };
+		8241D2E62F2F715300E8E3DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2DE2F2F715300E8E3DD /* SceneDelegate.swift */; };
+		8241D2E72F2F715300E8E3DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2DF2F2F715300E8E3DD /* HomeViewController.swift */; };
+		8241D2EE2F2F74DB00E8E3DD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2ED2F2F74DB00E8E3DD /* TabBarViewController.swift */; };
+		8241D2F62F2F75EF00E8E3DD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2F52F2F75EF00E8E3DD /* SearchViewController.swift */; };
+		8241D2F82F2F760100E8E3DD /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2F72F2F760100E8E3DD /* LibraryViewController.swift */; };
+		8241D2FA2F2F7D8C00E8E3DD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2F92F2F7D8C00E8E3DD /* TabBar.swift */; };
+		8241D2FD2F2F940900E8E3DD /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2FC2F2F940900E8E3DD /* AuthManager.swift */; };
+		8241D3002F2F952500E8E3DD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2FF2F2F952500E8E3DD /* WelcomeViewController.swift */; };
+		8241D3022F2F953B00E8E3DD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D3012F2F953B00E8E3DD /* AuthViewController.swift */; };
+		828654052F2FB207008B4E05 /* LikeSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 828654042F2FB207008B4E05 /* LikeSwiftUI */; };
+		8295A1072F31ECA700458028 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295A1062F31ECA700458028 /* AuthResponse.swift */; };
+		8295A1092F31F9B600458028 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295A1082F31F9B600458028 /* APICaller.swift */; };
+		8295A10B2F31FA3500458028 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295A10A2F31FA3500458028 /* UserProfile.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8241D2BF2F2F713E00E8E3DD /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8241D2D72F2F715300E8E3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8241D2D82F2F715300E8E3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8241D2D92F2F715300E8E3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8241D2DA2F2F715300E8E3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8241D2DE2F2F715300E8E3DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8241D2DF2F2F715300E8E3DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8241D2ED2F2F74DB00E8E3DD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8241D2F52F2F75EF00E8E3DD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8241D2F72F2F760100E8E3DD /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		8241D2F92F2F7D8C00E8E3DD /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		8241D2FC2F2F940900E8E3DD /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		8241D2FF2F2F952500E8E3DD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8241D3012F2F953B00E8E3DD /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8295A1062F31ECA700458028 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		8295A1082F31F9B600458028 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		8295A10A2F31FA3500458028 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8241D2D12F2F714100E8E3DD /* Exceptions for "Spotify" folder in "Spotify" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 8241D2BE2F2F713E00E8E3DD /* Spotify */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8241D2C12F2F713E00E8E3DD /* Spotify */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8241D2D12F2F714100E8E3DD /* Exceptions for "Spotify" folder in "Spotify" target */,
-			);
-			path = Spotify;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8241D2BC2F2F713E00E8E3DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828654052F2FB207008B4E05 /* LikeSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +60,7 @@
 		8241D2B62F2F713E00E8E3DD = {
 			isa = PBXGroup;
 			children = (
-				8241D2C12F2F713E00E8E3DD /* Spotify */,
+				8241D2E02F2F715300E8E3DD /* Spotify */,
 				8241D2C02F2F713E00E8E3DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +71,101 @@
 				8241D2BF2F2F713E00E8E3DD /* Spotify.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8241D2E02F2F715300E8E3DD /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2FB2F2F93FB00E8E3DD /* Manager */,
+				8241D2EA2F2F719200E8E3DD /* Model */,
+				8241D2E92F2F718B00E8E3DD /* View */,
+				8241D2EB2F2F71A800E8E3DD /* ViewModel */,
+				8241D2EC2F2F71B800E8E3DD /* ViewController */,
+				8241D2E82F2F715700E8E3DD /* App */,
+				8241D2D92F2F715300E8E3DD /* Info.plist */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		8241D2E82F2F715700E8E3DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2D72F2F715300E8E3DD /* AppDelegate.swift */,
+				8241D2DE2F2F715300E8E3DD /* SceneDelegate.swift */,
+				8241D2D82F2F715300E8E3DD /* Assets.xcassets */,
+				8241D2DB2F2F715300E8E3DD /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8241D2E92F2F718B00E8E3DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8241D2EA2F2F719200E8E3DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8295A1062F31ECA700458028 /* AuthResponse.swift */,
+				8295A10A2F31FA3500458028 /* UserProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8241D2EB2F2F71A800E8E3DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8241D2EC2F2F71B800E8E3DD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2FE2F2F940D00E8E3DD /* Auth */,
+				8241D2EF2F2F756900E8E3DD /* TabBar */,
+				8241D2F02F2F757500E8E3DD /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8241D2EF2F2F756900E8E3DD /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2ED2F2F74DB00E8E3DD /* TabBarViewController.swift */,
+				8241D2F92F2F7D8C00E8E3DD /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8241D2F02F2F757500E8E3DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2DF2F2F715300E8E3DD /* HomeViewController.swift */,
+				8241D2F52F2F75EF00E8E3DD /* SearchViewController.swift */,
+				8241D2F72F2F760100E8E3DD /* LibraryViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8241D2FB2F2F93FB00E8E3DD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2FC2F2F940900E8E3DD /* AuthManager.swift */,
+				8295A1082F31F9B600458028 /* APICaller.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8241D2FE2F2F940D00E8E3DD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8241D2FF2F2F952500E8E3DD /* WelcomeViewController.swift */,
+				8241D3012F2F953B00E8E3DD /* AuthViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +183,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				8241D2C12F2F713E00E8E3DD /* Spotify */,
-			);
 			name = Spotify;
 			packageProductDependencies = (
+				828654042F2FB207008B4E05 /* LikeSwiftUI */,
 			);
 			productName = Spotify;
 			productReference = 8241D2BF2F2F713E00E8E3DD /* Spotify.app */;
@@ -107,6 +215,9 @@
 			);
 			mainGroup = 8241D2B62F2F713E00E8E3DD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				828654032F2FB207008B4E05 /* XCRemoteSwiftPackageReference "LikeSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8241D2C02F2F713E00E8E3DD /* Products */;
 			projectDirPath = "";
@@ -122,6 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8241D2E12F2F715300E8E3DD /* Assets.xcassets in Resources */,
+				8241D2E32F2F715300E8E3DD /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +245,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8241D3002F2F952500E8E3DD /* WelcomeViewController.swift in Sources */,
+				8241D2F62F2F75EF00E8E3DD /* SearchViewController.swift in Sources */,
+				8241D3022F2F953B00E8E3DD /* AuthViewController.swift in Sources */,
+				8241D2FD2F2F940900E8E3DD /* AuthManager.swift in Sources */,
+				8241D2EE2F2F74DB00E8E3DD /* TabBarViewController.swift in Sources */,
+				8241D2E52F2F715300E8E3DD /* AppDelegate.swift in Sources */,
+				8241D2E62F2F715300E8E3DD /* SceneDelegate.swift in Sources */,
+				8295A1092F31F9B600458028 /* APICaller.swift in Sources */,
+				8241D2F82F2F760100E8E3DD /* LibraryViewController.swift in Sources */,
+				8295A1072F31ECA700458028 /* AuthResponse.swift in Sources */,
+				8241D2E72F2F715300E8E3DD /* HomeViewController.swift in Sources */,
+				8241D2FA2F2F7D8C00E8E3DD /* TabBar.swift in Sources */,
+				8295A10B2F31FA3500458028 /* UserProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8241D2DB2F2F715300E8E3DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8241D2DA2F2F715300E8E3DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8241D2D32F2F714100E8E3DD /* Debug */ = {
@@ -150,7 +287,6 @@
 				INFOPLIST_FILE = Spotify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -182,7 +318,6 @@
 				INFOPLIST_FILE = Spotify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -345,6 +480,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		828654032F2FB207008B4E05 /* XCRemoteSwiftPackageReference "LikeSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AzerCoder/LikeSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		828654042F2FB207008B4E05 /* LikeSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 828654032F2FB207008B4E05 /* XCRemoteSwiftPackageReference "LikeSwiftUI" */;
+			productName = LikeSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8241D2B72F2F713E00E8E3DD /* Project object */;
 }

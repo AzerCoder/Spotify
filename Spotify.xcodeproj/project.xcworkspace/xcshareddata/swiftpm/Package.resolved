@@ -1,0 +1,15 @@
+{
+  "originHash" : "bc7d43259a5bc70f1d3b2b0755e22f0c270a8de48f5e07eaf72e003439ad4832",
+  "pins" : [
+    {
+      "identity" : "likeswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AzerCoder/LikeSwiftUI.git",
+      "state" : {
+        "revision" : "4f3b109036108a49ee38ffc6b2196f0b5f0517d4",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
