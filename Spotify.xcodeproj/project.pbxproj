@@ -19,6 +19,9 @@
 		8241D2FD2F2F940900E8E3DD /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2FC2F2F940900E8E3DD /* AuthManager.swift */; };
 		8241D3002F2F952500E8E3DD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2FF2F2F952500E8E3DD /* WelcomeViewController.swift */; };
 		8241D3022F2F953B00E8E3DD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D3012F2F953B00E8E3DD /* AuthViewController.swift */; };
+		824DDF0F2F3B17FC004D889A /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 824DDF0E2F3B17FC004D889A /* SDWebImage */; };
+		824DDF112F3B17FC004D889A /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 824DDF102F3B17FC004D889A /* SDWebImageMapKit */; };
+		824DDF142F3B1925004D889A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 824DDF132F3B1925004D889A /* FirebaseAnalytics */; };
 		828654052F2FB207008B4E05 /* LikeSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 828654042F2FB207008B4E05 /* LikeSwiftUI */; };
 		828FD1D82F3A385B00C89365 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FD1D72F3A385B00C89365 /* ProfileViewController.swift */; };
 		828FD1DA2F3A3F9900C89365 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FD1D92F3A3F9900C89365 /* SettingsViewController.swift */; };
@@ -56,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824DDF0F2F3B17FC004D889A /* SDWebImage in Frameworks */,
+				824DDF112F3B17FC004D889A /* SDWebImageMapKit in Frameworks */,
+				824DDF142F3B1925004D889A /* FirebaseAnalytics in Frameworks */,
 				828654052F2FB207008B4E05 /* LikeSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +201,9 @@
 			name = Spotify;
 			packageProductDependencies = (
 				828654042F2FB207008B4E05 /* LikeSwiftUI */,
+				824DDF0E2F3B17FC004D889A /* SDWebImage */,
+				824DDF102F3B17FC004D889A /* SDWebImageMapKit */,
+				824DDF132F3B1925004D889A /* FirebaseAnalytics */,
 			);
 			productName = Spotify;
 			productReference = 8241D2BF2F2F713E00E8E3DD /* Spotify.app */;
@@ -226,6 +235,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				828654032F2FB207008B4E05 /* XCRemoteSwiftPackageReference "LikeSwiftUI" */,
+				824DDF0D2F3B17FC004D889A /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				824DDF122F3B1925004D889A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8241D2C02F2F713E00E8E3DD /* Products */;
@@ -494,6 +505,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		824DDF0D2F3B17FC004D889A /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.6;
+			};
+		};
+		824DDF122F3B1925004D889A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
 		828654032F2FB207008B4E05 /* XCRemoteSwiftPackageReference "LikeSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AzerCoder/LikeSwiftUI.git";
@@ -505,6 +532,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		824DDF0E2F3B17FC004D889A /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824DDF0D2F3B17FC004D889A /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		824DDF102F3B17FC004D889A /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824DDF0D2F3B17FC004D889A /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		824DDF132F3B1925004D889A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 824DDF122F3B1925004D889A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
 		828654042F2FB207008B4E05 /* LikeSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 828654032F2FB207008B4E05 /* XCRemoteSwiftPackageReference "LikeSwiftUI" */;

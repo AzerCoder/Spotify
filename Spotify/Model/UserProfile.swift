@@ -7,19 +7,40 @@
 
 import Foundation
 
-struct UserProfile: Codable{
-    let coubtry:String
-    let display_name:String
-    let email:String
-    let explicit_content:[String:Bool]
-    let external_urls:[String:String]
-    let id:String
-    let images:[APIImage]
-    let product:String
+struct UserProfile: Codable {
+    let country: String
+    let displayName: String
+    let email: String
+    let explicitContent: ExplicitContent
+    let externalUrls: [String: String]
+    let id: String
+    let images: [APIImage]
+    let product: String
+    
+    enum CodingKeys: String, CodingKey {
+        case country
+        case displayName = "display_name"
+        case email
+        case explicitContent = "explicit_content"
+        case externalUrls = "external_urls"
+        case id
+        case images
+        case product
+    }
 }
 
-struct APIImage: Codable{
-    let height:Int
-    let url:String
-    let width:Int
+struct ExplicitContent: Codable {
+    let filterEnabled: Bool
+    let filterLocked: Bool
+    
+    enum CodingKeys: String, CodingKey {
+        case filterEnabled = "filter_enabled"
+        case filterLocked = "filter_locked"
+    }
+}
+
+struct APIImage: Codable {
+    let url: String
+    let height: Int?
+    let width: Int?
 }

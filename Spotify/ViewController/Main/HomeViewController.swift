@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .systemBackground
         
         setUpNavBar()
+        fetchData()
     }
 
     private func setUpNavBar(){
@@ -30,5 +31,10 @@ class HomeViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
     }
 
+    private func fetchData(){
+        Task{
+           try await APICaller.shared.getNewReleases()
+        }
+    }
 }
 
