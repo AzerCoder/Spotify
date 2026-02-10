@@ -11,9 +11,24 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemGreen
+        setupUI()
+    }
+    
+    private func setupUI(){
+        view.backgroundColor = .systemBackground
+        
+        setUpNavBar()
     }
 
+    private func setUpNavBar(){
+        let button = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .plain, target: self, action: #selector(didProfileBtn))
+        navigationItem.rightBarButtonItem = button
+    }
+
+    @objc private func didProfileBtn(){
+        let vc = SettingsViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 

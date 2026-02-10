@@ -20,6 +20,9 @@
 		8241D3002F2F952500E8E3DD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D2FF2F2F952500E8E3DD /* WelcomeViewController.swift */; };
 		8241D3022F2F953B00E8E3DD /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241D3012F2F953B00E8E3DD /* AuthViewController.swift */; };
 		828654052F2FB207008B4E05 /* LikeSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 828654042F2FB207008B4E05 /* LikeSwiftUI */; };
+		828FD1D82F3A385B00C89365 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FD1D72F3A385B00C89365 /* ProfileViewController.swift */; };
+		828FD1DA2F3A3F9900C89365 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FD1D92F3A3F9900C89365 /* SettingsViewController.swift */; };
+		828FD1DC2F3A418500C89365 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828FD1DB2F3A418500C89365 /* SettingsModels.swift */; };
 		8295A1072F31ECA700458028 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295A1062F31ECA700458028 /* AuthResponse.swift */; };
 		8295A1092F31F9B600458028 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295A1082F31F9B600458028 /* APICaller.swift */; };
 		8295A10B2F31FA3500458028 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295A10A2F31FA3500458028 /* UserProfile.swift */; };
@@ -40,6 +43,9 @@
 		8241D2FC2F2F940900E8E3DD /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		8241D2FF2F2F952500E8E3DD /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		8241D3012F2F953B00E8E3DD /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		828FD1D72F3A385B00C89365 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		828FD1D92F3A3F9900C89365 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		828FD1DB2F3A418500C89365 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 		8295A1062F31ECA700458028 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		8295A1082F31F9B600458028 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		8295A10A2F31FA3500458028 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 			children = (
 				8295A1062F31ECA700458028 /* AuthResponse.swift */,
 				8295A10A2F31FA3500458028 /* UserProfile.swift */,
+				828FD1DB2F3A418500C89365 /* SettingsModels.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,6 +153,8 @@
 				8241D2DF2F2F715300E8E3DD /* HomeViewController.swift */,
 				8241D2F52F2F75EF00E8E3DD /* SearchViewController.swift */,
 				8241D2F72F2F760100E8E3DD /* LibraryViewController.swift */,
+				828FD1D72F3A385B00C89365 /* ProfileViewController.swift */,
+				828FD1D92F3A3F9900C89365 /* SettingsViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -249,9 +258,12 @@
 				8241D2F62F2F75EF00E8E3DD /* SearchViewController.swift in Sources */,
 				8241D3022F2F953B00E8E3DD /* AuthViewController.swift in Sources */,
 				8241D2FD2F2F940900E8E3DD /* AuthManager.swift in Sources */,
+				828FD1DC2F3A418500C89365 /* SettingsModels.swift in Sources */,
+				828FD1D82F3A385B00C89365 /* ProfileViewController.swift in Sources */,
 				8241D2EE2F2F74DB00E8E3DD /* TabBarViewController.swift in Sources */,
 				8241D2E52F2F715300E8E3DD /* AppDelegate.swift in Sources */,
 				8241D2E62F2F715300E8E3DD /* SceneDelegate.swift in Sources */,
+				828FD1DA2F3A3F9900C89365 /* SettingsViewController.swift in Sources */,
 				8295A1092F31F9B600458028 /* APICaller.swift in Sources */,
 				8241D2F82F2F760100E8E3DD /* LibraryViewController.swift in Sources */,
 				8295A1072F31ECA700458028 /* AuthResponse.swift in Sources */,
